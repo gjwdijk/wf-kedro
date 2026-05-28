@@ -1,3 +1,4 @@
+absl-py==2.4.0
 antlr4-python3-runtime @ file:///home/conda/feedstock_root/build_artifacts/antlr-python-runtime-meta_1638309185939/work
 anyio==4.13.0
 appdirs @ file:///home/conda/feedstock_root/build_artifacts/appdirs_1733753955715/work
@@ -6,6 +7,7 @@ argon2-cffi==25.1.0
 argon2-cffi-bindings==25.1.0
 arrow @ file:///home/conda/feedstock_root/build_artifacts/bld/rattler-build_arrow_1760831179/work
 asttokens==3.0.1
+astunparse==1.6.3
 async-lru==2.3.0
 attrs @ file:///home/conda/feedstock_root/build_artifacts/bld/rattler-build_attrs_1773935801/work
 babel==2.18.0
@@ -31,12 +33,17 @@ dynaconf @ file:///home/conda/feedstock_root/build_artifacts/bld/rattler-build_d
 executing==2.2.1
 fastjsonschema==2.21.2
 fastparquet==2026.5.0
+flatbuffers==25.12.19
 fqdn==1.5.1
 fsspec @ file:///home/conda/feedstock_root/build_artifacts/fsspec_1777547723461/work
+gast==0.7.0
 gitdb @ file:///home/conda/feedstock_root/build_artifacts/gitdb_1735887193964/work
 GitPython @ file:///home/conda/feedstock_root/build_artifacts/gitpython_1778065740808/work
+google-pasta==0.2.0
+grpcio==1.80.0
 h11==0.16.0
 h2 @ file:///home/conda/feedstock_root/build_artifacts/bld/rattler-build_h2_1756364871/work
+h5py==3.14.0
 hpack @ file:///home/conda/feedstock_root/build_artifacts/hpack_1737618293087/work
 httpcore==1.0.9
 httpx==0.28.1
@@ -69,14 +76,20 @@ jupyterlab_pygments==0.3.0
 jupyterlab_server==2.28.0
 jupyterlab_widgets==3.0.16
 kedro @ file:///home/conda/feedstock_root/build_artifacts/bld/rattler-build_kedro_1777721795/work
+kedro-datasets==9.4.0
 kedro-telemetry @ file:///home/conda/feedstock_root/build_artifacts/kedro-telemetry_1779543004690/work
+keras==3.14.1
 lark==1.3.1
+lazy-loader==0.5
+libclang==18.1.1
 markdown-it-py @ file:///home/conda/feedstock_root/build_artifacts/markdown-it-py_1778169583724/work
 MarkupSafe @ file:///Users/runner/miniforge3/conda-bld/markupsafe_1772445133296/work
 matplotlib-inline==0.2.2
 mdurl @ file:///home/conda/feedstock_root/build_artifacts/mdurl_1733255585584/work
 mistune==3.2.1
+ml_dtypes==0.5.4
 more-itertools @ file:///home/conda/feedstock_root/build_artifacts/bld/rattler-build_more-itertools_1779478190/work
+namex==0.1.0
 nbclient==0.10.4
 nbconvert==7.17.1
 nbformat==5.10.4
@@ -85,6 +98,8 @@ notebook==7.5.6
 notebook_shim==0.2.4
 numpy==2.4.6
 omegaconf @ file:///home/conda/feedstock_root/build_artifacts/omegaconf_1670575376789/work
+opt_einsum==3.4.0
+optree==0.19.1
 packaging @ file:///home/conda/feedstock_root/build_artifacts/bld/rattler-build_packaging_1777103621/work
 pandas==3.0.3
 pandocfilters==1.5.1
@@ -95,6 +110,7 @@ platformdirs==4.9.6
 pluggy @ file:///home/conda/feedstock_root/build_artifacts/bld/rattler-build_pluggy_1764896838/work
 prometheus_client==0.25.0
 prompt_toolkit==3.0.52
+protobuf==7.35.0
 psutil==7.2.2
 ptyprocess==0.7.0
 pure_eval==0.2.3
@@ -123,6 +139,8 @@ six @ file:///home/conda/feedstock_root/build_artifacts/bld/rattler-build_six_17
 smmap @ file:///home/conda/feedstock_root/build_artifacts/smmap_1775586922960/work
 soupsieve==2.8.4
 stack-data==0.6.3
+tensorflow==2.21.0
+termcolor==3.3.0
 terminado==0.18.1
 text-unidecode @ file:///home/conda/feedstock_root/build_artifacts/text-unidecode_1733749896243/work
 threadpoolctl==3.6.0
@@ -139,6 +157,8 @@ wcwidth==0.7.0
 webcolors==25.10.0
 webencodings==0.5.1
 websocket-client==1.9.0
+wheel==0.47.0
 widgetsnbextension==4.0.15
+wrapt==2.2.1
 xarray==2026.4.0
 zipp @ file:///home/conda/feedstock_root/build_artifacts/bld/rattler-build_zipp_1779159948/work

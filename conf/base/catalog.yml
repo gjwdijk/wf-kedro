@@ -1,0 +1,7 @@
+# De invoer: de map met alle ruwe Parquet bestanden
+raw_heart_rate_data:
+  type: partitions.PartitionedDataset
+  dataset: pandas.ParquetDataset
+  path: /Volumes/Extreme SSD/pq/parquet/heart_rate_sample/
+  filename_suffix: .parquet
+
