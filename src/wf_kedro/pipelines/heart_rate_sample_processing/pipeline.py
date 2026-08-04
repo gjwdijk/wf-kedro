@@ -17,8 +17,7 @@ def create_pipeline(**kwargs) -> Pipeline:
         node(
             func=create_keras_dataset,
             inputs="interim_heart_rate_dataframe",
-            # We voegen hier 'copy_mode="assign"' toe om TensorFlow-fouten te voorkomen:
-            outputs=dict(value="keras_heart_rate_dataset", copy_mode="assign"),
+            outputs="keras_heart_rate_dataset",
             name="convert_to_keras_dataset_node",
         ),
     ])

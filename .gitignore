@@ -159,3 +159,18 @@ venv.bak/
 
 # mlflow local runs
 mlruns/*
+
+### Kedro v2 and common Python project additions (append)
+
+node_modules/          # npm dependencies if using web components (e.g., kedro-viz)
+*.pip                  # pip upgrade logs for Kedro 1.x to 2.x migration  
+__venv__/              # Newer env convention used when upgrading Kedro
+kedro_session*         # Kedro session directories
+kedro_session*         # Kedro session directories (append part 2)
+*.egg-info/            # egg info files created during kedro install - add to ignore list  
+.eggs/                 # temporary eggs from pip installs
+
+### Additional common patterns for Python projects in this repo:
+notebooks/.gitkeep     # Keep notebooks but don't track changes
+data/*/*.json          # JSON data outputs, if any exist later
+

@@ -1,55 +1,56 @@
 absl-py==2.4.0
-antlr4-python3-runtime @ file:///home/conda/feedstock_root/build_artifacts/antlr-python-runtime-meta_1638309185939/work
+antlr4-python3-runtime==4.9.3
 anyio==4.13.0
-appdirs @ file:///home/conda/feedstock_root/build_artifacts/appdirs_1733753955715/work
+appdirs==1.4.4
 appnope==0.1.4
 argon2-cffi==25.1.0
 argon2-cffi-bindings==25.1.0
-arrow @ file:///home/conda/feedstock_root/build_artifacts/bld/rattler-build_arrow_1760831179/work
+arrow==1.4.0
 asttokens==3.0.1
 astunparse==1.6.3
 async-lru==2.3.0
-attrs @ file:///home/conda/feedstock_root/build_artifacts/bld/rattler-build_attrs_1773935801/work
+attrs==26.1.0
 babel==2.18.0
-backports.zstd @ file:///Users/runner/miniforge3/conda-bld/bld/rattler-build_backports.zstd_1778594074/work
+backports.zstd==1.5.0
 beautifulsoup4==4.14.3
-binaryornot @ file:///home/conda/feedstock_root/build_artifacts/bld/rattler-build_binaryornot_1773003768/work
+binaryornot==0.6.0
 bleach==6.3.0
-Brotli @ file:///Users/runner/miniforge3/conda-bld/brotli-split_1764017116075/work
-build @ file:///home/conda/feedstock_root/build_artifacts/bld/rattler-build_python-build_1778048948/work
-cachetools @ file:///home/conda/feedstock_root/build_artifacts/cachetools_1779411518554/work
-certifi @ file:///home/conda/feedstock_root/build_artifacts/certifi_1779285033994/work/certifi
+Brotli==1.2.0
+build==1.5.0
+cachetools==7.1.4
+certifi==2026.5.20
 cffi==2.0.0
-charset-normalizer @ file:///home/conda/feedstock_root/build_artifacts/charset-normalizer_1775127091311/work
-click @ file:///home/conda/feedstock_root/build_artifacts/bld/rattler-build_click_1779108494/work
-colorama @ file:///home/conda/feedstock_root/build_artifacts/colorama_1733218098505/work
+charset-normalizer==3.4.7
+click==8.4.0
+colorama==0.4.6
 comm==0.2.3
-cookiecutter @ file:///home/conda/feedstock_root/build_artifacts/bld/rattler-build_cookiecutter_1772630675/work
+cookiecutter==2.7.1
 cramjam==2.11.0
 debugpy==1.8.20
 decorator==5.3.1
 defusedxml==0.7.1
-dynaconf @ file:///home/conda/feedstock_root/build_artifacts/bld/rattler-build_dynaconf_1773783503/work
+dynaconf==3.2.13
 executing==2.2.1
 fastjsonschema==2.21.2
 fastparquet==2026.5.0
 flatbuffers==25.12.19
 fqdn==1.5.1
-fsspec @ file:///home/conda/feedstock_root/build_artifacts/fsspec_1777547723461/work
+fsspec==2026.4.0
+garmin-fit-sdk==21.205.0
 gast==0.7.0
-gitdb @ file:///home/conda/feedstock_root/build_artifacts/gitdb_1735887193964/work
-GitPython @ file:///home/conda/feedstock_root/build_artifacts/gitpython_1778065740808/work
+gitdb==4.0.12
+GitPython==3.1.50
 google-pasta==0.2.0
 grpcio==1.80.0
 h11==0.16.0
-h2 @ file:///home/conda/feedstock_root/build_artifacts/bld/rattler-build_h2_1756364871/work
+h2==4.3.0
 h5py==3.14.0
-hpack @ file:///home/conda/feedstock_root/build_artifacts/hpack_1737618293087/work
+hpack==4.1.0
 httpcore==1.0.9
 httpx==0.28.1
-hyperframe @ file:///home/conda/feedstock_root/build_artifacts/hyperframe_1737618333194/work
-idna @ file:///home/conda/feedstock_root/build_artifacts/bld/rattler-build_idna_1779294335/work
-importlib_metadata @ file:///home/conda/feedstock_root/build_artifacts/bld/rattler-build_importlib-metadata_1779714582/work
+hyperframe==6.1.0
+idna==3.15
+importlib_metadata==9.0.0
 ipykernel==7.2.0
 ipylab==1.1.0
 ipython==9.13.0
@@ -57,38 +58,38 @@ ipython_pygments_lexers==1.1.1
 ipywidgets==8.1.8
 isoduration==20.11.0
 jedi==0.20.0
-Jinja2 @ file:///home/conda/feedstock_root/build_artifacts/bld/rattler-build_jinja2_1764517220/work
+Jinja2==3.1.6
 joblib==1.5.3
 json5==0.14.0
 jsonpointer==3.1.1
 jsonschema==4.26.0
 jsonschema-specifications==2025.9.1
 jupyter==1.1.1
+jupyter_client==8.8.0
 jupyter-console==6.6.3
+jupyter_core==5.9.1
 jupyter-events==0.12.1
 jupyter-lsp==2.3.1
-jupyter_client==8.8.0
-jupyter_core==5.9.1
 jupyter_server==2.18.2
 jupyter_server_terminals==0.5.4
 jupyterlab==4.5.7
 jupyterlab_pygments==0.3.0
 jupyterlab_server==2.28.0
 jupyterlab_widgets==3.0.16
-kedro @ file:///home/conda/feedstock_root/build_artifacts/bld/rattler-build_kedro_1777721795/work
+kedro==1.5.0
 kedro-datasets==9.4.0
-kedro-telemetry @ file:///home/conda/feedstock_root/build_artifacts/kedro-telemetry_1779543004690/work
+kedro-telemetry==0.8.0
 keras==3.14.1
 lark==1.3.1
 lazy-loader==0.5
 libclang==18.1.1
-markdown-it-py @ file:///home/conda/feedstock_root/build_artifacts/markdown-it-py_1778169583724/work
-MarkupSafe @ file:///Users/runner/miniforge3/conda-bld/markupsafe_1772445133296/work
+markdown-it-py==4.2.0
+MarkupSafe==3.0.3
 matplotlib-inline==0.2.2
-mdurl @ file:///home/conda/feedstock_root/build_artifacts/mdurl_1733255585584/work
+mdurl==0.1.2
 mistune==3.2.1
 ml_dtypes==0.5.4
-more-itertools @ file:///home/conda/feedstock_root/build_artifacts/bld/rattler-build_more-itertools_1779478190/work
+more-itertools==11.1.0
 namex==0.1.0
 nbclient==0.10.4
 nbconvert==7.17.1
@@ -97,17 +98,18 @@ nest-asyncio==1.6.0
 notebook==7.5.6
 notebook_shim==0.2.4
 numpy==2.4.6
-omegaconf @ file:///home/conda/feedstock_root/build_artifacts/omegaconf_1670575376789/work
+omegaconf==2.3.0
 opt_einsum==3.4.0
 optree==0.19.1
-packaging @ file:///home/conda/feedstock_root/build_artifacts/bld/rattler-build_packaging_1777103621/work
+packaging==26.2
 pandas==3.0.3
 pandocfilters==1.5.1
-parse @ file:///home/conda/feedstock_root/build_artifacts/parse_1777735828604/work
+parse==1.22.0
 parso==0.8.7
 pexpect==4.9.0
+pip==26.1.1
 platformdirs==4.9.6
-pluggy @ file:///home/conda/feedstock_root/build_artifacts/bld/rattler-build_pluggy_1764896838/work
+pluggy==1.6.0
 prometheus_client==0.25.0
 prompt_toolkit==3.0.52
 protobuf==7.35.0
@@ -116,43 +118,43 @@ ptyprocess==0.7.0
 pure_eval==0.2.3
 pyarrow==24.0.0
 pycparser==3.0
-Pygments @ file:///home/conda/feedstock_root/build_artifacts/pygments_1774796700044/work
-pyproject_hooks @ file:///home/conda/feedstock_root/build_artifacts/pyproject_hooks_1733710025763/work
-PySocks @ file:///home/conda/feedstock_root/build_artifacts/pysocks_1733217236728/work
-python-dateutil @ file:///home/conda/feedstock_root/build_artifacts/bld/rattler-build_python-dateutil_1751104122/work
+Pygments==2.20.0
+pyproject_hooks==1.2.0
+PySocks==1.7.1
+python-dateutil==2.9.0.post0
 python-json-logger==4.1.0
-python-slugify @ file:///home/conda/feedstock_root/build_artifacts/python-slugify_1733756245724/work
-PyYAML @ file:///Users/runner/miniforge3/conda-bld/pyyaml_1770223448612/work
+python-slugify==8.0.4
+PyYAML==6.0.3
 pyzmq==27.1.0
 referencing==0.37.0
-requests @ file:///home/conda/feedstock_root/build_artifacts/bld/rattler-build_requests_1778851103/work
+requests==2.34.2
 rfc3339-validator==0.1.4
 rfc3986-validator==0.1.1
 rfc3987-syntax==1.1.0
-rich @ file:///home/conda/feedstock_root/build_artifacts/bld/rattler-build_rich_1775880677/work/dist
+rich==14.3.4
 rpds-py==0.30.0
 scikit-learn==1.8.0
 scipy==1.17.1
 Send2Trash==2.1.0
 setuptools==82.0.1
-six @ file:///home/conda/feedstock_root/build_artifacts/bld/rattler-build_six_1753199211/work
-smmap @ file:///home/conda/feedstock_root/build_artifacts/smmap_1775586922960/work
+six==1.17.0
+smmap==5.0.3
 soupsieve==2.8.4
 stack-data==0.6.3
 tensorflow==2.21.0
 termcolor==3.3.0
 terminado==0.18.1
-text-unidecode @ file:///home/conda/feedstock_root/build_artifacts/text-unidecode_1733749896243/work
+text-unidecode==1.3
 threadpoolctl==3.6.0
 tinycss2==1.4.0
-tomli @ file:///home/conda/feedstock_root/build_artifacts/bld/rattler-build_tomli_1774492402/work
-tomli_w @ file:///home/conda/feedstock_root/build_artifacts/tomli-w_1736962227066/work
+tomli==2.4.1
+tomli_w==1.2.0
 tornado==6.5.5
 traitlets==5.15.0
-typing_extensions @ file:///home/conda/feedstock_root/build_artifacts/bld/rattler-build_typing_extensions_1756220668/work
-tzdata @ file:///home/conda/feedstock_root/build_artifacts/python-tzdata_1777068919240/work
+typing_extensions==4.15.0
+tzdata==2026.2
 uri-template==1.3.0
-urllib3 @ file:///home/conda/feedstock_root/build_artifacts/urllib3_1778188571305/work
+urllib3==2.7.0
 wcwidth==0.7.0
 webcolors==25.10.0
 webencodings==0.5.1
@@ -161,4 +163,4 @@ wheel==0.47.0
 widgetsnbextension==4.0.15
 wrapt==2.2.1
 xarray==2026.4.0
-zipp @ file:///home/conda/feedstock_root/build_artifacts/bld/rattler-build_zipp_1779159948/work
+zipp==4.1.0

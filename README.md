@@ -4,9 +4,13 @@
 
 ## Overview
 
-This is your new Kedro project with PySpark setup, which was generated using `kedro 1.3.1`.
+This is your new Kedro v2.x project. Take a look at the [official documentation](https://kedro.v2.docs.pydanny.dev/en/latest/) for details on this version of Kedro and [the older Kedro 1 documentation](https://docs.kedro.org) if you haven't migrated yet.
 
-Take a look at the [Kedro documentation](https://docs.kedro.org) to get started.
+To get started with Kedro v2:
+* Read about the latest [features in Kedro v2 migration guide](https://kedro.readthedocs.io/en/latest/kedro-v2-migration/) to learn what changed and how to update your projects accordingly
+* Check our documentation for best-practice tips on data engineering workflows that are compatible with both versions
+
+**Breaking changes:** We've had two major releases of Kedro since 1.x. If you were previously using Kedro v1, read the migration guide before upgrading: https://kedro.readthedocs.io/en/latest/kedro-v2-migration/
 
 ## Rules and guidelines
 

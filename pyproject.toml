@@ -11,7 +11,7 @@ dependencies = [
     "ipython>=8.10",
     "jupyterlab>=3.0",
     "notebook",
-    "kedro[jupyter]~=1.3.1",
+    "kedro[jupyter]~=2.0.0",
     "kedro-datasets[pandas-csvdataset, pandas-exceldataset, pandas-parquetdataset, plotly-plotlydataset, plotly-jsondataset, matplotlib-matplotlibdataset, spark-sparkdataset]>=9.1",
     "kedro-viz>=6.7.0",
     "scikit-learn~=1.5.1",
@@ -52,8 +52,8 @@ namespaces = false
 [tool.kedro]
 package_name = "wf_kedro"
 project_name = "wf-kedro"
-kedro_init_version = "1.3.1"
-tools = "['Linting', 'Testing', 'Custom Logging', 'Documentation', 'Data Structure', 'PySpark']"
+kedro_init_version = "1.5"
+tools = "['Linting', 'Testing', 'Custom Logging', 'Documentation', 'Data Structure']"
 example_pipeline = "False"
 source_dir = "src"
 

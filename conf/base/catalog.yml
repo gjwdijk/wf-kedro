@@ -2,6 +2,26 @@
 raw_heart_rate_data:
   type: partitions.PartitionedDataset
   dataset: pandas.ParquetDataset
-  path: /Volumes/Extreme SSD/pq/parquet/heart_rate_sample/
+  path: /Volumes/SanDisk_ExtremePro_55AF/wf-kedro-dataset/heart_rate_sample/
   filename_suffix: .parquet
 
+raw_workout_data:
+  type: partitions.PartitionedDataset
+  dataset: pandas.ParquetDataset
+  path: /Volumes/SanDisk_ExtremePro_55AF/wf-kedro-dataset/workout/
+  filename_suffix: .parquet
+
+raw_track_data:
+  type: partitions.PartitionedDataset
+  dataset: pandas.ParquetDataset
+  path: /Volumes/SanDisk_ExtremePro_55AF/wf-kedro-dataset/track_sample/
+  filename_suffix: .parquet
+
+#keras_heart_rate_dataset:
+#  type: MemoryDataset
+#  copy_mode: assign
+
+keras_heart_rate_dataset:
+  # Verwijs naar de class die je net hebt aangemaakt:
+  type: wf_kedro.datasets.tfr_dataset.FastTFRecordDataset
+  filepath: data/05_model_input/keras_heart_rate_dataset/tfr  
